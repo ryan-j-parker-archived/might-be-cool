@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Secular+One&display=swap');
+
 :root {
     --background: rgb(224, 234, 247);
     --header-background: white;
@@ -7,21 +9,34 @@
 body {
     height: 100vh;
     font-family: 'Rubik', san-serif;
-    background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr auto;
+    opacity: .9
 }
 
+/*
 header {
-    position: sticky;
+    position: relative;
     top: 0;
     display: flex;
     align-items: center;
-    background-color: var(--header-background);
+    font-size: 7rem;
+    font-weight: 700;
+    font-family: 'Arvo';
+    background-image: url('/assets/valley-cinema2.gif');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
+*/
 
 main {
     padding: 20px;
+
+}
+
+img {
+
 }
 
 footer {
@@ -32,4 +47,160 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+.header-span {
+    
+}
+
+h1 {
+    font-size: 7rem;
+    font-weight: 700;
+    font-family: 'Arvo';
+    background-image: url('/assets/valley-cinema.gif');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+
+/*
+.parent {
+    width: 300px;
+    height: 300px;
+    background-image: url('/assets/');
+    
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+
+}
+*/
+
+button {
+    width: 80px;
+    font-family: 'Courier New', monospace;
+    color: turquoise;
+    background-color: transparent;
+}
+
+#grid-span {
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.container div {
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.div1 {
+    border: 2px solid black;
+    
+}
+
+.div2 {
+            border: 2px solid black;
+}
+
+.div3 {
+            border: 2px solid black;
+}
+
+.div4 {
+
+}
+
+.div5 {
+    
+}
+
+.div6 {
+
+}
+
+.div7 {
+
+}
+
+.div8 {
+
+}
+
+.div1 {
+    border: 2px solid black;
+}
+
+.div2 {
+            border: 2px solid black;
+}
+
+.div3 {
+            border: 2px solid black;
+}
+
+.div4 {
+            border: 2px solid black;
+}
+
+.div5 {
+            border: 2px solid black;
+}
+
+.div6 {
+            border: 2px solid black;
+}
+
+.div7 {
+            border: 2px solid black;
+}
+
+.div8 {
+            border: 2px solid black;
+}
+
+.div9 {
+            border: 2px solid black;
+}
+
+    border: 2px solid black;
+}
+
+.div11 {
+            border: 2px solid black;
+}
+
+.div12 {
+            border: 2px solid black;
+}
+
+.div13 {
+
+            border: 2px solid black;
+}
+
+.div14 {
+            border: 2px solid black;
+}
+
+.div15 {
+            border: 2px solid black;
+}
+
+.div16 {
+            border: 2px solid black;
+    blur: 10px;
 }
